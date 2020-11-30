@@ -28,12 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 .commit();
 
         addPlace = findViewById(R.id.add_place);
-        addPlace.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, AddPlace.class));
-            }
-        });
+        addPlace.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, AddPlace.class)));
     }
 
 }

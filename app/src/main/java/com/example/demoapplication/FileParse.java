@@ -21,11 +21,12 @@ public class FileParse {
         inputFile = new File(file);
         input = new Scanner(inputFile);
         infos = new ArrayList<String[]>();
-        info = new String[6];
+
         while(input.hasNext()) {
+            info = new String[6];
             String line = input.nextLine();
-            String aLine[] = line.split("[|]+");
-            System.out.println(aLine.length);
+            String[] aLine = line.split("[|]+");
+            //System.out.println(aLine.length);
             for (int i = 0; i < 6; ++i) {
                 info[i] = aLine[i].trim();
             }

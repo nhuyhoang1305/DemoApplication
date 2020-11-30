@@ -1,2 +1,5 @@
 Location name                                           |    Latitude  |   Longitude  |   Type | Rating | DetailRating
-Trường đại học công nghệ                                |   21.038286708022 |    105.7832895684 |   wc  | 4 | test
+Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội                     |   21.038286708022 |    105.7832895684 |   wc  | 4 | test
+Nhà hàng Bò Đội Nón | 21.0366778    | 105.792057    | Nhà hàng | 4.3 | review 1, review 2
+Trần Đăng Ninh, Cầu Giấy, Hà Nội | 21.03829 | 105.79346 | Dịch vụ pháp lý | 4.0 | review
+104C9Bngõ 26 Tô Hiệu Cầu Giấy Hà Nội | 21.04223 | 105.79081 | Quần áo | 3.9 | reivew

@@ -250,7 +250,15 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                         (dialog, id) -> {
                             Intent intent = new Intent(getContext(), AddPlace.class);
                             intent.putExtra("location", marker.getTitle());
+                            Bundle args = new Bundle();
+                            args.putParcelable("position", marker.getPosition());
+                            intent.putExtra("position", args);
                             startActivity(intent);
+                            try {
+                                readFile();
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
                         });
 
                 builder1.setNegativeButton(
